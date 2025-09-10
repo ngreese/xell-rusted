@@ -1,0 +1,24 @@
+[package]
+name = "xell-rusted"
+version = "0.1.0"
+edition = "2024"
+authors = ["Nathanael G. Reese <nathanaelreese@acm.org>"]
+description = "XeLL Reloaded Rust Port."
+repository = "https://gitlab.com/ngreese/xell-rusted"
+license = "MIT"
+autobins = false
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+enum_glob_use = "deny"
+
+[[bin]]
+name = "xell-rs"
+path = "src/main.rs"
+test = true
+doctest = true
+doc = true
+
+[dependencies]
