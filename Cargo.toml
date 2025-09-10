@@ -4,9 +4,12 @@ version = "0.1.0"
 edition = "2024"
 authors = ["Nathanael G. Reese <nathanaelreese@acm.org>"]
 description = "XeLL Reloaded Rust Port."
+homepage = "https://gitlab.com/ngreese/xell-rusted"
 repository = "https://gitlab.com/ngreese/xell-rusted"
+readme = "README.md
 license = "MIT"
 autobins = false
+keywords = ["xell-reloaded", "xbox360"]
 
 [lints.rust]
 unsafe_code = "forbid"
