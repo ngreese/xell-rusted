@@ -1,2 +1,2 @@
-# xell-rusted
-XeLL Reloaded Port to Rust
+# XeLL Rusted
+> XeLL Reloaded Port to Rust
